@@ -1,0 +1,45 @@
+body{
+    background-color: azure;
+}
+
+main-body{
+    margin:auto;
+    text-align: left;
+}
+
+input[type=number]
+{
+    cursor: pointer;
+    padding: 3px 0px;
+    border-radius: 5px;
+    text-align: right;
+    font-size: 19px;
+}
+
+input[type=text]
+{
+    padding: 3px 0px;
+    border-radius: 5px;
+    text-align: right;
+    font-size: 19px;
+    background-color: lightgray;
+}
+
+input[type=password]
+{
+    padding: 3px 0px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 19px;
+}
+button
+{
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #e1e1e1;
+  font-size: 17px; 
+}
+.button1 {padding: 12px 28px;}
+.button2 {padding: 3px 12px;}
