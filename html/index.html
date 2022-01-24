@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css"  href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="main-body">
+        <h3>Par&acirc;metros do Temporizador</h3>
+        
+        <label for="TimeDelay">Tempo de retardo (0 - 1000 segundos)</label>
+        <br>
+        <input type="number" id="TimeDelay" name="TimeDelay">
+        <br><br>
+
+        <label for="MotorStartLimit">Limite de partidas por hora (2 - 60)<br> </label>
+        <input type="number" id="MotorStartLimit" name="MotorStartLimit"><br><br>
+
+        <label for="StartsPerHours">N&uacute;mero de partidas por hora <br></label>
+        <input type="text" id="StartsPerHours" name="StartsPerHours" disabled><br><br>
+        
+        <label for="TotalOperHours">Tempo total de opera&ccedil;&atilde;o do motor (horas)<br> </label>
+        <input type="text" id="TotalOperHours" name="TotalOperHours" disabled><br><br>
+        
+        <label for="PartialOperHours">Tempo parcial de opera&ccedil;&atilde;o do motor (horas)<br> </label>
+        <input type="text" id="PartialOperHours" name="PartialOperHours" disabled>
+        
+        <button class="button button2" onclick="btnResetFunction()">Reset</button>
+        <p id="btnReset"></p>
+                
+        <label for="Password">Senha <br></label>
+        <input type="password" id="Password" name="Password">
+        <br><br>
+        
+        <button  class="button button1" onclick="btnApplyFunction()" id="btnApply">Aplicar</button>
+        <!--  <p id="btnApply"></p>  !-->
+
+        <button  class="button button1" onclick="btnRefresh()">Atualizar</button>
+        <p id="btnRefresh"></p>
+
+    </section>
+    
+    <script src="/scripts.js"></script>
+</body>
+</html>
